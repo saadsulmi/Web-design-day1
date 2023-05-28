@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2em;
+    color: rgb(132, 132, 132);
+    pointer-events: none;
+    margin-right: 150px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color:rgb(132, 132, 132);
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.navigation a.active{
+    background: rgb(132, 132, 132);
+    color: rgb(255, 255, 255);
+    padding: 6px 15px;
+}
+.navigation a:hover{
+    background: rgb(132, 132, 132);
+    color: rgb(255, 255, 255);
+    padding: 6px 15px;
+}
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text{
+    position: relative;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    pointer-events: none;
+}
+
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec{
+    position: relative;
+    background-color: #003329;
+    padding: 100px;
+}
+
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 300;
+}
